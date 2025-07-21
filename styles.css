@@ -1,0 +1,250 @@
+*{
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+
+.main {
+   background-color: pink;
+   height: max-content;
+   width: max-content;
+}
+
+.top_bar {
+   background-color: #B98F9A;
+   width: 1000px;
+   position: fixed;
+   height: max-content;
+   justify-content: right;
+   display: flex;
+   align-items: center;
+   z-index: 99;
+   padding: 1rem;
+}
+
+.EN {
+   color: white;
+   justify-content: right;
+   right: 4rem;
+   position: relative;
+   align-items: center;
+   display: flex;
+   padding: 10px 20px;
+}
+
+.EN:hover {
+   background-color: pink;
+}
+
+.EN a {
+   text-decoration: none;
+   color: white;
+}
+
+.TH {
+   color: white;
+   right: 2rem;
+   position: relative;
+   justify-content: right;
+   align-items: center;
+   display: flex;
+   padding: 10px 20px;
+}
+
+.TH:hover {
+   background-color: pink;
+}
+
+.TH a {
+   color: white;
+   text-decoration: none;
+}
+
+.name img {
+   max-inline-size: 100%;
+}
+
+.name {
+   height: 1000px;
+   width: 1000px;
+   background-color: pink;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+.intro {
+   width: 1000px;
+   height: max-content;
+   background-color: white; 
+   place-items: center;
+}
+
+.intro img {
+   max-inline-size: 100%;
+   position: relative;
+   top: 2rem;
+}
+
+.intro1 {
+   height: max-content;
+   width: 1000px;
+   background-color: pink;
+   position: relative;
+
+}
+
+.intro-name {
+   height: max-content;
+   width: 1000px;
+   color: black;
+   font-size: 16px;
+   justify-content: center;
+   align-items: center;
+   place-items: center;
+   padding: 2rem;
+}
+
+.intro-intro {
+   height: max-content;
+   width: 1000px;
+   background-color: #B98F9A;
+   position: relative;
+   font-size: 20px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   color: white;
+}
+
+.concept {
+   height: max-content;
+   width: 1000px;
+   background-color: white;
+   place-items: center;
+   padding: 2rem;
+}
+
+.concept1 {
+   height: max-content;
+   width: 1000px;
+   font-size: 14px;
+   text-align: justify;
+   color: black;
+   background-color: pink;
+   padding: 2rem;
+   bottom: 2rem;
+}
+
+.concept-con {
+   background-color: #B98F9A;
+   width: 1000px;
+   height: max-content;
+   position: relative;
+   display: flex;
+   bottom: 2rem;
+   right: 2rem;
+}
+
+.con-con {
+   left: 2rem;
+   font-size: 20px;
+   color: white;
+   width: 1000px;
+   height: max-content;
+   position: relative;
+   display: flex;
+}
+
+.credit {
+   height: max-content;
+   width: 1000px;
+   background-color: white;
+   padding: 2rem;
+}
+
+.credit-cre {
+   height: max-content;
+   width: 1000px;
+   background-color: #B98F9A;
+   display: flex;
+   position: relative;
+   bottom: 2rem;
+   right: 2rem;
+}
+
+.cre-cre {
+   color: white;
+   left: 2rem;
+   font-size: 20px;
+   position: relative;
+   display: flex;
+   height: max-content;
+}
+
+.credit img {
+   max-inline-size: 100%;
+   position: relative;
+   bottom: 0px;
+}
+
+.contract {
+   height: max-content;
+   width: 1000px;
+   background: pink;
+   color: black;
+   font-size: 14px;
+   padding: 2rem;
+}
+.contract-con {
+   background-color: #B98F9A;
+   bottom: 2rem;
+   right: 2rem;
+   width: 1000px;
+   display: flex;
+   position: relative;
+   height: max-content;
+}
+
+.act-act {
+   color: white;
+   left: 2rem;
+   font-size: 20px;
+   display: flex;
+   position: relative;
+}
+
+.Book-now {
+   background-color: white;
+   width: 1000px;
+   height: max-content;
+   padding: 2rem;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+.Book2 {
+  font-size: 16px;
+  display:inline-block;
+  width: max-content; 
+  height: max-content;  
+  background-color: #00c300;                    
+  padding: 10px 20px;           
+  border-radius: 8px;             
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Book2:hover {
+  background-color: #00b200;    
+  transform: scale(1.05);       
+}
+
+.Book2 a {
+   text-decoration: none;
+   color: white;
+}
+
+h1,h2 {
+   font-family: Arial, Helvetica, sans-serif;
+}
