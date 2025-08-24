@@ -117,45 +117,6 @@
    color: white;
 }
 
-.concept {
-   height: max-content;
-   width: 1000px;
-   background-color: white;
-   place-items: center;
-   padding: 2rem;
-}
-
-.concept1 {
-   height: max-content;
-   width: 1000px;
-   font-size: 14px;
-   text-align: justify;
-   color: black;
-   background-color: pink;
-   padding: 2rem;
-   bottom: 2rem;
-}
-
-.concept-con {
-   background-color: #B98F9A;
-   width: 1000px;
-   height: max-content;
-   position: relative;
-   display: flex;
-   bottom: 2rem;
-   right: 2rem;
-}
-
-.con-con {
-   left: 2rem;
-   font-size: 20px;
-   color: white;
-   width: 1000px;
-   height: max-content;
-   position: relative;
-   display: flex;
-}
-
 .credit {
    height: max-content;
    width: 1000px;
